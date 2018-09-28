@@ -6,8 +6,8 @@ services:
     # pull this image from the 'registry'
     image: mdeselincourt/get-started:part2
     deploy:
-        # run 5 instances in web
-      replicas: 5
+        # run 6 instances in web
+      replicas: 6
       resources:
         limits:
           cpus: "0.1"
